@@ -35,28 +35,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   -The component that holds some state should be the one that updates it. If a child component needs to update some state,
   it should notify the parent component using a callback function passed down as a prop.
 
-  UPDATED OBJECTS
-  const [drink, setDrink] = useState ({
-    title: 'Americano'
-    price: 5
-  });
-
-  setDrink({...drink, price:2});
-
-
-  //UPDATING NESTD OBJECTS
-  const [customer, setCustomer] = useState({
-    name: 'John',
-    address: {
-      city: 'Sabs Frabsisco,
-      zipCode: 94111
-    }
-  });
-
-  setCustomer({ ...custmoer, adress: {
-
-    , zipcode: 94112
-  }})
+  
 
 
   //UPDATING ARRAYS
