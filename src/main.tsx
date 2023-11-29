@@ -36,19 +36,4 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   it should notify the parent component using a callback function passed down as a prop.
 
   
-
-
-  //UPDATING ARRAYS
-  const [tags, setTags] = useState(['a', 'b']);
-
-  ADDING
-  setTags([...tags, 'c']);
-
-  //Removing
-  setTags(tags.filter(tag => tag !=='a'));
-
-  //UPDATING
-  setTags(tags.map(tag => tag === 'a', ? 'A': tag));
-
-  
 */}
