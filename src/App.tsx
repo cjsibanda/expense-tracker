@@ -14,6 +14,7 @@ const App = () => {
     {id:9, description:'iii', amount:10, category:'Utilities'},
     {id:10, description:'jjj', amount:10, category:'Utilities'},
     {id:11, description:'kkk', amount:10, category:'Utilities'},
+    {id:12, description:'lll', amount:10, category:'Utilities'},
  
     
   ]);
