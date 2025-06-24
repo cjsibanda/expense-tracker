@@ -15,8 +15,6 @@ const App = () => {
     {id:10, description:'jjj', amount:10, category:'Utilities'},
     {id:11, description:'kkk', amount:10, category:'Utilities'},
     {id:12, description:'lll', amount:10, category:'Utilities'},
-    {id:13, description:'mmm', amount:10, category:'Utilities'},
-    {id: 14, description:'nnn', amount:10, category:'Utilities'},
     
   ]);
 
